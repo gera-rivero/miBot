@@ -5,14 +5,10 @@ import time
 from consultas_de_red import *
 
 
-TOKEN = '549436924:AAHkkA3ywFlXxHg1MwBihK56_rSVOKsxdNI'
+TOKEN = ''
 
 bot= telebot.TeleBot(TOKEN)
 
-COMTIK_chat_id= '-307325769'
-AGUIAR_chat_id= '-216395995'
-MEUCCI_chat_id= '-250735611'
-GERA_Pruebas= '416751663'
 
 actionSelect = types.ReplyKeyboardMarkup(one_time_keyboard=False,resize_keyboard=True,row_width=1) 
 actionSelect.row('📊 Estado de Conexión 📊')
@@ -21,10 +17,6 @@ actionSelect.row("💾 Backup Router 💾")
 
 
 clientes_habilitados= {
-        COMTIK_chat_id: ['comtik','ComRou912*/','192.168.10.1','ether3'],
-        AGUIAR_chat_id: ['comtik','ComAgui731**','192.168.163.1','ether1'],
-        MEUCCI_chat_id: ['comtik','ComMeu8291Router**','192.168.2.1','ether3'],
-        GERA_Pruebas: ['comtik','ComRou912*/','192.168.10.1','ether3'],
         }
 
 
