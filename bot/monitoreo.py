@@ -119,37 +119,3 @@ def get_file(archivo):
 	
 	return False
 
-router= ['gadmin','Dpto1F','192.168.99.20']
-#crear_plan(router,'3Megas', '1','3')
-#eliminar_plan(router,'4Megas')
-#editar_plan(router,'3Megas', '4Megas','2','4')
-
-interfaz= 'wlan1'
-#router= ['comtik','ComRou912*/','192.168.10.1']
-#velocidad=(54.32526397705078,6.477363586425781)
-#print('Bajada: {:.2f}Mbps \nSubida: {:.2f}Mbps'.format(velocidad[0], velocidad[1]))
-
-
-#consumo= monitor(router,interfaz)
-#print('Trafico en la Interfaz: ' + interfaz)
-#print('Bajada: {:.2f}kbps'.format(consumo[0]))
-#print('Subida: {:.2f}Kbps'.format(consumo[1]))
-#marca=router_status(router)[0]['platform'] 
-#modelo= router_status(router)[0]['board-name']
-#cant_cpu= router_status(router)[0]['cpu-count']
-#cpu_load= router_status(router)[0]['cpu-load']
-#print('Router: {} {}\nCantidad de CPUs: {}\nCarga de CPU: {}% \nMemori Libre: {}MiB'.format(marca,modelo,cant_cpu,cpu_load,memoria_libre))
-
-#l=esta_activo(router,'3')[0]
-#print(l['user'],int(l['bytes-in'])*8/1024/1024,int(l['bytes-out'])*8/1024/1024) # subida / bajada
-#datos_ping=ping(router,'8.8.8.8')[0]
-#latencia= datos_ping['avg-rtt']
-#pkt_perdidos= datos_ping['packet-loss']
-#print(latencia,pkt_perdidos)
-
-#print(trafico_x_cola(router,'user1'))
-
-#send_email(router,'gera_riv@hotmail.com')
-
-#print(get_ISP(router,'ether3'))
-
